@@ -1,4 +1,4 @@
-const stripeAPI = require('./stripe');
+const stripeAPI = require('../stripe');
 
 async function createCheckoutSession(req, res) {
   const domainURL = process.env.WEB_APP_URL;

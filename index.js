@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 require('dotenv').config({ path: './.env' });
+const createCheckoutSession = require('./api/checkout');
 
 const app = express();
 const port = 8080;
